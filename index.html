@@ -40,7 +40,7 @@
     <header class=" header-bg position-relative" style="background-image: url('/header-img.png')">
         <nav class="navbar navbar-expand-md bg-transparent border-0 position-absolute top-0 start-0 end-0 container-xxl"
              style="background-color: var(--bs-content-bg); border-bottom: var(--bs-border-width) solid var(--bs-content-border-color);">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     Tovoqsoy
                 </a>
@@ -127,7 +127,13 @@
         <h1>Bog’lanish uchun</h1>
     </section>
 </main>
-<div id="app"></div>
+<footer class="container">
+    <div>
+        <h3 class="foot-brand">Tovoqsoy</h3>
+    </div>
+</footer>
+<div class="copyright text-center">Hech qaysi huquqlar himoyalanmagan, Tovoqsoy <span id="date"></span>.</div>
+<script>document.getElementById("date").textContent = new Date().getFullYear().toString()</script>
 <script src="/src/compressed.js"></script>
 <script type="module" src="/src/main.js"></script>
 </body>

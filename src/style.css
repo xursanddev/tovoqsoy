@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header-bg {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -117,4 +121,28 @@
     font-weight: 600;
     line-height: normal;
     text-align: center;
+}
+
+footer {
+    padding: 26px;
+}
+
+footer .foot-brand {
+    color: #000;
+    font-family: "Laila", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.copyright {
+    color: #000;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    background: #ECF1F0;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
 }
