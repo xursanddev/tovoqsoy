@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header-bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000073;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    font-family: "Laila", serif;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-item a, .nav-item a:hover {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-family: "Spectral", serif;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner p {
+    color: #FFF;
+    font-family: "Gelasio", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gallery {
+    background: #ECF1F0;
+    /*min-height: 100vh;*/
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.gallery .title {
+    color: #00140A;
+    font-family: "Laila", serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#services, #contact {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#services h1 {
+    color: #000;
+    font-family: "Laila", serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service-card {
+    width: 384px;
+    height: 206px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+    padding: 21px;
+}
+
+.service-card svg {
+    width: 50.184px;
+    height: 48.894px;
+    flex-shrink: 0;
+}
+
+.service-card .title {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.service-card p {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+}
+
+#contact {
+    background: #ECF1F0;
+    color: #000;
+    font-family: "Laila", serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+footer {
+    padding: 26px;
+}
+
+footer .foot-brand {
+    color: #000;
+    font-family: "Laila", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.copyright {
+    color: #000;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    background: #ECF1F0;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+form {
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form label {
+    width: 100%;
+    color: #000;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 0;
+    margin-top: 8px;
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+form textarea {
+    margin-bottom: 0px;
+}
+
+form button[type="submit"] {
+    background: #409B5A;
+    padding: 12px 18px;
+    border: 1px solid #409B5A;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
