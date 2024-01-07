@@ -1,7 +1,6 @@
 import "halfmoon/css/halfmoon.min.css";
 import './style.css';
 import './slider.css';
-// import './counter.js'
 
 const $ = selector => {
     return document.querySelector(selector);
